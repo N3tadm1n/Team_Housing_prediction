@@ -1,0 +1,9 @@
+Conclusion for crime activity on heat map with near by police station
+
+- Initially we thought it would make sense for a city with high crime rate to have more police stations surrounding it 
+
+- However, after ploting every crime incident occured in Sac county on a heat map along with near by police stations on symbol markers, we observed that they have little or no relationship.(see heatmap.png)
+
+- To further illustrate the lack of correlation between the two factors, namely crime activity and near by police stations, we used Seaborn to apply a line regression plot and found a very weak corrlation. (see regression.png)
+
+- Using the same two factors on a Kernal Density plot suggests that a typical city would have between 2-3 police stations regardless of the amount of crime happened in the city. (see density.png)
